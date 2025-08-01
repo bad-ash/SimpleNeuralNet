@@ -1,0 +1,1 @@
+Run train.py, which will output the training loss per epoch (as text and a graph), and the validation set accuracy.
