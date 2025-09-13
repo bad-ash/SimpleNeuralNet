@@ -15,10 +15,6 @@ def batches(X, y, batch_size, shuffle=True):
         yield X[batch_idx], y[batch_idx]
 
 x_train, x_test, y_train, y_test = processMNIST()
-x_train = x_train.values
-y_train = y_train.values
-x_test  = x_test.values
-y_test  = y_test.values
 
 model = Simple1LayerMLP(D_in=784, D_out=128)
 # 3) Training loop
